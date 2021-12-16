@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/search.css">
+    <!-- Font  -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet"> -->
+    <title>Unsplash Clone</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- lightBox -->
+        <div class="lightBox hide">
+            <div class="delete"></div>
+            <button class="download"> <a href="#">Download Image</a> </button>
+            <img class="lightBox_img" src="" alt="popup image">
+            <div class="controls">
+                <img src="./img/prev.png" class="prev" alt="prev">
+                <img src="./img/next.png" class="next" alt="next">
+            </div>
+        </div>
+        <!--  -->
+        <section class="container">
+            <div class="form">
+                <form>
+                    <input type="text" autocomplete="off" name="search" class="search" placeholder="Search here...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>    
+        </section>
+        <!-- Gallery -->
+        <section id="gallery" class="gallery">
+
+        </section>
+    </div>
+    
+    <!-- Script -->
+    <script src="./script/app.js"></script>
+</body>
+</html>
